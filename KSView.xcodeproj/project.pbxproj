@@ -14,6 +14,7 @@
 		E3EE15D31BCAD108008D4F76 /* KSViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EE15D21BCAD108008D4F76 /* KSViewUITests.swift */; };
 		E3EE15E21BCAD118008D4F76 /* KSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EE15E01BCAD118008D4F76 /* KSView.swift */; settings = {ASSET_TAGS = (); }; };
 		E3EE15E31BCAD118008D4F76 /* KSView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = E3EE15E11BCAD118008D4F76 /* KSView.podspec */; settings = {ASSET_TAGS = (); }; };
+		E3EE15E51BCADEBA008D4F76 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = E3EE15E41BCADEBA008D4F76 /* README.md */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E3EE15D41BCAD108008D4F76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3EE15E01BCAD118008D4F76 /* KSView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSView.swift; sourceTree = "<group>"; };
 		E3EE15E11BCAD118008D4F76 /* KSView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KSView.podspec; sourceTree = "<group>"; };
+		E3EE15E41BCADEBA008D4F76 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				E3EE15B91BCAD107008D4F76 /* Assets.xcassets */,
 				E3EE15BB1BCAD108008D4F76 /* MainMenu.xib */,
 				E3EE15BE1BCAD108008D4F76 /* Info.plist */,
+				E3EE15E41BCADEBA008D4F76 /* README.md */,
 			);
 			path = KSView;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3EE15E51BCADEBA008D4F76 /* README.md in Sources */,
 				E3EE15E21BCAD118008D4F76 /* KSView.swift in Sources */,
 				E3EE15B81BCAD107008D4F76 /* AppDelegate.swift in Sources */,
 			);
@@ -478,6 +482,7 @@
 				E3EE15D91BCAD108008D4F76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3EE15DA1BCAD108008D4F76 /* Build configuration list for PBXNativeTarget "KSViewTests" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +491,7 @@
 				E3EE15DC1BCAD108008D4F76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3EE15DD1BCAD108008D4F76 /* Build configuration list for PBXNativeTarget "KSViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +500,7 @@
 				E3EE15DF1BCAD108008D4F76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
