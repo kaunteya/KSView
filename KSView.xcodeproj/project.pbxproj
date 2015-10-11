@@ -81,6 +81,7 @@
 			children = (
 				E3EE15E01BCAD118008D4F76 /* KSView.swift */,
 				E3EE15E11BCAD118008D4F76 /* KSView.podspec */,
+				E3EE15E41BCADEBA008D4F76 /* README.md */,
 				E3EE15B61BCAD107008D4F76 /* KSView */,
 				E3EE15C61BCAD108008D4F76 /* KSViewTests */,
 				E3EE15D11BCAD108008D4F76 /* KSViewUITests */,
@@ -105,7 +106,6 @@
 				E3EE15B91BCAD107008D4F76 /* Assets.xcassets */,
 				E3EE15BB1BCAD108008D4F76 /* MainMenu.xib */,
 				E3EE15BE1BCAD108008D4F76 /* Info.plist */,
-				E3EE15E41BCADEBA008D4F76 /* README.md */,
 			);
 			path = KSView;
 			sourceTree = "<group>";
