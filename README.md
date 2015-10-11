@@ -2,12 +2,10 @@
 The missing NSView extension
 
 `KSView` is customisable NSView extension for Mac OSX implemented in Swift 2.0
-![](./Images/sample.png)
 
-##Features
-- Easy to Use
-- Light Mode and Fill Mode
-- Simple and lightweight
+These are some of the sample views created using KSView
+
+![Sample](./Images/sample.png)
 
 ##Requirements
 - Mac OS X 10.10
@@ -45,6 +43,10 @@ Since KSView is `@IBDesignable`, Attribute Inspector gets updated like this.
 </div>
 
 Update `Border Color`, `Corner Radius`, `Border Width` and `Border Color` and there you have KSView ready without writing a single line of code.
+
+---
+The `KSView` application also has a test view to make real time try outs.
+![](./Images/testView.png)
 
 ##License
 `KSView` is released under the MIT license. See LICENSE for details.
