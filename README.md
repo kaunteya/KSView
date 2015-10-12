@@ -48,6 +48,9 @@ Update `Border Color`, `Corner Radius`, `Border Width` and `Border Color` and th
 The `KSView` application also has a test view to make real time try outs.
 ![](./Images/testView.png)
 
+##Todo
+- [ ] Blur view
+
 ##License
 `KSView` is released under the MIT license. See LICENSE for details.
 
