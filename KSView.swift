@@ -12,9 +12,9 @@ import Cocoa
 @IBDesignable
 public class KSView: NSView {
     
-    @IBInspectable public var backgroundColor: NSColor = NSColor.clearColor() {
+    @IBInspectable public var backgroundColor: NSColor = NSColor.clear {
         didSet {
-            self.layer!.backgroundColor = backgroundColor.CGColor
+            self.layer!.backgroundColor = backgroundColor.cgColor
         }
     }
 
@@ -30,16 +30,16 @@ public class KSView: NSView {
         }
     }
 
-    @IBInspectable public var borderColor: NSColor = NSColor.blackColor() {
+    @IBInspectable public var borderColor: NSColor = NSColor.black {
         didSet {
-            self.layer?.borderColor = borderColor.CGColor
+            self.layer?.borderColor = borderColor.cgColor
         }
     }
     
     required public init?(coder: NSCoder) {
         super.init(coder: coder)
         self.wantsLayer = true
-        self.layer?.backgroundColor = NSColor.purpleColor().CGColor
+        self.layer?.backgroundColor = NSColor.purple.cgColor
         //        TODO: All subview will be drawn in parent views layer
         //        self.canDrawSubviewsIntoLayer = true
     }
