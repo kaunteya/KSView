@@ -9,6 +9,6 @@ Pod::Spec.new do |spec|
 
   spec.platform = :osx, '10.10'
   spec.requires_arc = true
-
+  spec.swift_version = '4.1'
   spec.source_files = 'KSView.swift'
 end
