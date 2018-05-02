@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = 'KSView'
-  spec.version = '0.2.0'
+  spec.version = '0.2'
   spec.license = 'MIT'
   spec.summary = 'The missing extension for NSView'
   spec.homepage = 'https://github.com/kaunteya/KSView'
